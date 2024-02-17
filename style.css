@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Valorax-lg25V.otf);
+    font-style: italic;
+    
+  }
+body{
+    width: 100vw;
+    height: 100vh;
+     background-image: url(bgi.jpg); 
+    background-size: cover;
+    background-color: purple;
+}
+.heading {
+ 
+    height: 5rem ;
+    line-height: 2.5;
+    font-family: myFirstFont;
+;
+
+}
+.choices{
+    
+    height: 20rem;
+    display: flex;
+    
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.choice img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+    
+    background-color: #081b31;
+    border-radius: 50%;
+    
+    margin-top: 0.5rem;
+}
+.result{
+    height: 8rem;
+    
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+    align-items: flex-end;
+    
+    padding-bottom: 3rem;
+}
+.gap p{
+    
+   padding: 0.4rem; 
+   font-weight: bold;
+   font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.winner{
+    font-size: 3rem;
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+.restart button{
+    margin: 1rem;
+    background-color: black;
+    width: 10rem;
+    border-radius: 50%;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.restart button:hover{
+    background-color: red;
+}
+.hide{
+    display: none;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+   
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
